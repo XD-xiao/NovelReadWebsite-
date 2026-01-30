@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  mail:
+    username: 2822334610@qq.com
+    password: wqyylddzebmsdgci
+  datasource:
+    url: jdbc:mysql://localhost:3306/novelreaddb?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: static
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: 100ms
