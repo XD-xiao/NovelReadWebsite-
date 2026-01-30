@@ -138,7 +138,7 @@ mvn spring-boot:run
 
 ## 📸 项目预览
 
-> 可在此处补充系统界面截图或功能演示 GIF
+https://www.bilibili.com/video/BV1q96YBdEU8/?vd_source=24bab2e18b0ba462d768cb1916178367
 
 ------
 
